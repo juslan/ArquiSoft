@@ -1,0 +1,27 @@
+
+Identificacion de Code smell
+1.	Método grande: un método, función o procedimiento que ha crecido hasta hacerse demasiado grande.
+Justificativo. - Existe un método grande porque en realidad todo lo realiza dentro del main en vez de hacer divide y vencerás (Línea 5 a 34)
+
+2.	Complejidad artificiosa: Uso forzado de patrones de diseño demasiado complicados, donde uno más simple sería suficiente.
+Justificativo. - Se puede hacer una refactorización mucho más fácil para efectuar este problema
+
+3.	Identificadores excesivamente cortos: el nombre de una variable debe reflejar su función, a menos que sea obvio.
+Justificativo. - Se puede ver que el programa no tiene variables claras y concisas de lo que está haciendo. (Línea 8 a 31).
+
+4.	Error no obvio: debido a que nuestro código está muy sucio e ilegible, fácilmente podemos perder algo muy importante.
+Justificativo. - En la parte de la creación de variables en la parte de declaración se nos puede ir valores en la división ya que lo tomamos como entero y no como flotante. (Línea 8)
+
+5.	Excesivo uso de literales: estos deben codificarse como constantes con nombre, para mejorar la legibilidad y para evitar errores de programación. Adicionalmente, los literales pueden y deben ser externalizados en archivos/scripts de recursos cuando sea posible, para facilitar la localización del software si se pretende implementar en diferentes regiones.
+Justificativo. - En su mayoría del programa esta este uso como tal definidas por a, b, c y d como variables.
+
+6.	Código duplicado: existe código idéntico o muy similar en más de una ubicación.
+Justificativo. - Existe una condicional repetida que pregunta lo mismo si es suma (Línea 22 a la 24)
+
+Conclusión
+La identificación del código fue un éxito se puede decir también que se implementó 
+una guía pequeña para que sea más entendible al usuario para poner las variables como 
+tal y hacer el uso de esta calculadora. También como un punto a parte no encontré como 
+tal el code smells de crear una variable dentro de un bucle y tener un bucle infinito 
+por lo tanto lo dejo a mi criterio refactorizarlo y tomarlo en cuenta en esta práctica.
+ 
